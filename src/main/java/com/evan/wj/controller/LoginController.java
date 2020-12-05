@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
 
+import javax.servlet.http.HttpSession;
 import java.util.Objects;
 
 /***
@@ -26,7 +27,7 @@ public class LoginController {
     @CrossOrigin
     @PostMapping(value = "api/login")
     @ResponseBody
-    public Result login(@RequestBody User requestUser) {
+    public Result login(@RequestBody User requestUser, HttpSession httpSession) {
         String username = requestUser.getUsername();
         // 对html标签进行转义，防止XXS进攻
         username = HtmlUtils.htmlEscape(username);
@@ -36,6 +37,7 @@ public class LoginController {
             System.out.println("test,账号密码错误");
             return new Result(400);
         }else {
+            httpSession.setAttribute("user", user);
             return new Result(200);
         }
     }
