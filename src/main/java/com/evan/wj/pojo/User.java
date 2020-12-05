@@ -1,5 +1,10 @@
 package com.evan.wj.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import javax.persistence.*;
+import java.io.Serializable;
+
 /***
  * @description
  * @author diaoxiuze
@@ -7,9 +12,20 @@ package com.evan.wj.pojo;
  * @param
  * @return
  */
+
+
+@Entity
+@Table(name = "user")
+@JsonIgnoreProperties({"handler","hibernateLazyInitializer"})
+
 public class User {
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Integer id;
+    @Column(name = "username")
     private String username;
+    @Column(name = "password")
     private String password;
 
     public int getId() {
@@ -40,5 +56,8 @@ public class User {
         this.id = id;
         this.username = username;
         this.password = password;
+    }
+
+    public User() {
     }
 }

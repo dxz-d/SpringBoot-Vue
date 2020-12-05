@@ -2,6 +2,8 @@ package com.evan.wj.controller;
 
 import com.evan.wj.pojo.User;
 import com.evan.wj.result.Result;
+import com.evan.wj.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
@@ -18,16 +20,19 @@ import java.util.Objects;
 @Controller
 public class LoginController {
 
+    @Autowired
+    UserService userService;
+
     @CrossOrigin
     @PostMapping(value = "api/login")
     @ResponseBody
     public Result login(@RequestBody User requestUser) {
-        // 对html标签进行转义，防止XXS进攻
         String username = requestUser.getUsername();
+        // 对html标签进行转义，防止XXS进攻
         username = HtmlUtils.htmlEscape(username);
 
-        if (!Objects.equals("admin", username) || !Objects.equals("123456", requestUser.getPassword()) ) {
-            String message = "账号密码错误";
+        User user = userService.get(username, requestUser.getPassword());
+        if (user == null) {
             System.out.println("test,账号密码错误");
             return new Result(400);
         }else {
