@@ -1,4 +1,4 @@
-package com.evan.config;
+package com.evan.wj.config;
 
 import com.evan.wj.interceptor.LoginInterceptor;
 import org.springframework.boot.SpringBootConfiguration;
