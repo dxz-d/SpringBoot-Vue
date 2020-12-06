@@ -7,6 +7,11 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @SpringBootApplication
 public class WjApplication {
 
+    /**
+     * Hello World!
+     * @param args
+     */
+
     public static void main(String[] args) {
         SpringApplication.run(WjApplication.class, args);
     }
