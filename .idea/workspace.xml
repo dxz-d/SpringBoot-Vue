@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469a54b6-882d-40eb-a239-c6586ae150b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="469a54b6-882d-40eb-a239-c6586ae150b7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wj-vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -129,6 +127,7 @@
       <workItem from="1607159131359" duration="4792000" />
       <workItem from="1607163949261" duration="640000" />
       <workItem from="1607164598054" duration="10423000" />
+      <workItem from="1607237076460" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="前后端分离（与前端试着联调）">
       <created>1607123655138</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607185676122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1607237256418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607237256418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +180,8 @@
     <MESSAGE value="前后端分离（与前端试着联调）" />
     <MESSAGE value="SpringBoot+Jpa连接数据库" />
     <MESSAGE value="后台登录拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台登录拦截器" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="363" width="816" height="677" key="#Assign_Data_Sources" timestamp="1607163692604">
@@ -201,18 +208,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1607185946044" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1607185673361">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1607237254730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607185673361" />
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607237254730" />
     <state width="455" height="466" key="DebuggerActiveHint" timestamp="1607164797445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1607164797445" />
-    <state x="285" y="232" key="FileChooserDialogImpl" timestamp="1607236587580">
+    <state x="285" y="232" key="FileChooserDialogImpl" timestamp="1607237329407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="232" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607236587580" />
+    <state x="285" y="232" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607237329407" />
     <state width="1877" height="503" key="GridCell.Tab.0.bottom" timestamp="1607236515102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="165" y="110" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607158991961" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607236684773">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607237275979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607236684773" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607237275979" />
     <state x="723" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1607124015372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
