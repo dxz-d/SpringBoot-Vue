@@ -44,4 +44,15 @@ public class LibraryController {
             return list();
         }
     }
+
+    @CrossOrigin
+    @GetMapping("/api/search")
+    public List<Book> searchResult (@RequestParam("keywords") String keywords) {
+        // 关键词为空时查询出所有书籍
+        if(keywords.equals("")) {
+            return bookService.list();
+        } else {
+            return bookService.search(keywords);
+        }
+    }
 }
