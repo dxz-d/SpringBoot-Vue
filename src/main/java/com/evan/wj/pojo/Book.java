@@ -16,20 +16,26 @@ import javax.persistence.*;
 @JsonIgnoreProperties({"handler","hibernateLazyInitializer"})
 public class Book {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
+    @Column(name = "cover")
     private String cover;
 
+    @Column(name = "title")
     private String title;
 
+    @Column(name = "author")
     private String author;
 
+    @Column(name = "date")
     private String date;
 
+    @Column(name = "press")
     private String press;
 
+    @Column(name = "abs")
     private String abs;
 
     @ManyToOne
