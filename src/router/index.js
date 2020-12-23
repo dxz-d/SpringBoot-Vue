@@ -10,6 +10,16 @@ Vue.use(Router)
 export default new Router({
     mode: "history",
     routes: [
+        // 默认打开首页
+        {
+            path: '/',
+            name: 'index',
+            redirect: '/index',
+            component: AppIndex,
+            meta: {
+                requireAuth: true
+            }
+        },
         // 下面都是固定的写法
         {
             path: '/login',
