@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469a54b6-882d-40eb-a239-c6586ae150b7" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wj-vue" beforeDir="false" afterPath="$PROJECT_DIR$/../wj-vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/MyWebConfigurer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LibraryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,8 @@
       <workItem from="1608551219237" duration="598000" />
       <workItem from="1608605674863" duration="2009000" />
       <workItem from="1608616701303" duration="2128000" />
-      <workItem from="1608685398205" duration="6692000" />
+      <workItem from="1608685398205" duration="12589000" />
+      <workItem from="1608724791409" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="前后端分离（与前端试着联调）">
       <created>1607123655138</created>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608691719235</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="实现搜索功能">
+      <created>1608705007431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608705007431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +220,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="数据库的设计与增删改查" />
     <MESSAGE value="解决跨域请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决跨域请求" />
+    <MESSAGE value="实现搜索功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现搜索功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="363" width="816" height="677" key="#Assign_Data_Sources" timestamp="1607241823984">
@@ -243,54 +252,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1607185946044" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1608691715183">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1608728964135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608691715183" />
-    <state width="455" height="466" key="DebuggerActiveHint" timestamp="1607164797445">
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608728964135" />
+    <state width="455" height="466" key="DebuggerActiveHint" timestamp="1608713335870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1607164797445" />
+    <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608713335870" />
     <state x="285" y="232" key="FileChooserDialogImpl" timestamp="1607237907262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="232" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607237907262" />
-    <state width="1877" height="535" key="GridCell.Tab.0.bottom" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.0.bottom" timestamp="1608728566657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.0.center" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
+    <state width="1877" height="392" key="GridCell.Tab.0.center" timestamp="1608728566657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.0.left" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
+    <state width="1877" height="392" key="GridCell.Tab.0.left" timestamp="1608728566657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.0.right" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
+    <state width="1877" height="392" key="GridCell.Tab.0.right" timestamp="1608728566657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.1.bottom" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
+    <state width="1877" height="392" key="GridCell.Tab.1.bottom" timestamp="1608728550699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.1.center" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550699" />
+    <state width="1877" height="392" key="GridCell.Tab.1.center" timestamp="1608728550698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.1.left" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550698" />
+    <state width="1877" height="392" key="GridCell.Tab.1.left" timestamp="1608728550698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state width="1877" height="535" key="GridCell.Tab.1.right" timestamp="1608704957252">
+    <state width="1877" height="392" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550698" />
+    <state width="1877" height="392" key="GridCell.Tab.1.right" timestamp="1608728550699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="535" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608704957252" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1607119652907">
+    <state width="1877" height="392" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550699" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1608726134940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607119652907" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608726134940" />
     <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog" timestamp="1607164665989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,18 +324,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="250" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607160379242" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608616806054">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608726008212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608616806054" />
-    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608691179728">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608726008212" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608712041925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1608691179728" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1607348953037">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608712041925" />
+    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608728847842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607348953037" />
+    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1608728847842" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608709576214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608709576213" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +348,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LoginController.java</url>
           <line>34</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LibraryController.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
