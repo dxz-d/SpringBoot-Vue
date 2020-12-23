@@ -1,6 +1,7 @@
 <template>
+    <!-- 导航栏状态有问题 -->
     <el-menu
-        :default-active="'/index'"
+        :default-active="this.$route.path"
         router
         mode="horizontal"
         background-color="white"
