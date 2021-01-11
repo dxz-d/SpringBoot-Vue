@@ -12,8 +12,6 @@ import java.io.Serializable;
  * @param
  * @return
  */
-
-
 @Entity
 @Table(name = "user")
 @JsonIgnoreProperties({"handler","hibernateLazyInitializer"})
@@ -29,11 +27,14 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    public int getId() {
+    @Column(name = "salt")
+    private String salt;
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -53,10 +54,12 @@ public class User {
         this.password = password;
     }
 
-    public User(int id, String username, String password) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 
     public User() {

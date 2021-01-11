@@ -33,4 +33,8 @@ public class UserService {
     public void add(User user) {
         userDao.save(user);
     }
+
+    public User getByUserName(String userName) {
+        return userDao.findByUsername(userName);
+    }
 }
