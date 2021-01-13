@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469a54b6-882d-40eb-a239-c6586ae150b7" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wj-vue" beforeDir="false" afterPath="$PROJECT_DIR$/../wj-vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/evan/wj/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evan/wj/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/evan/wj/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evan/wj/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/evan/wj/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evan/wj/result/Result.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +84,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -144,6 +151,8 @@
       <workItem from="1608616701303" duration="2128000" />
       <workItem from="1608685398205" duration="12589000" />
       <workItem from="1608724791409" duration="1935000" />
+      <workItem from="1610499929787" duration="634000" />
+      <workItem from="1610506289516" duration="8420000" />
     </task>
     <task id="LOCAL-00001" summary="前后端分离（与前端试着联调）">
       <created>1607123655138</created>
@@ -240,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607241622800" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1607242576715">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1610506666063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607242576715" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610506666063" />
     <state x="660" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607185942050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,58 +265,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608728964135" />
-    <state width="455" height="466" key="DebuggerActiveHint" timestamp="1608713335870">
+    <state width="455" height="466" key="DebuggerActiveHint" timestamp="1610520362555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608713335870" />
+    <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1610520362555" />
     <state x="285" y="232" key="FileChooserDialogImpl" timestamp="1607237907262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="232" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607237907262" />
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom" timestamp="1608728566657">
+    <state width="1877" height="484" key="GridCell.Tab.0.bottom" timestamp="1610522004825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
-    <state width="1877" height="392" key="GridCell.Tab.0.center" timestamp="1608728566657">
+    <state width="1877" height="484" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
+    <state width="1877" height="484" key="GridCell.Tab.0.center" timestamp="1610522004825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
-    <state width="1877" height="392" key="GridCell.Tab.0.left" timestamp="1608728566657">
+    <state width="1877" height="484" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
+    <state width="1877" height="484" key="GridCell.Tab.0.left" timestamp="1610522004825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
-    <state width="1877" height="392" key="GridCell.Tab.0.right" timestamp="1608728566657">
+    <state width="1877" height="484" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
+    <state width="1877" height="484" key="GridCell.Tab.0.right" timestamp="1610522004825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608728566657" />
-    <state width="1877" height="392" key="GridCell.Tab.1.bottom" timestamp="1608728550699">
+    <state width="1877" height="484" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
+    <state width="1877" height="484" key="GridCell.Tab.1.bottom" timestamp="1610522004826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550699" />
-    <state width="1877" height="392" key="GridCell.Tab.1.center" timestamp="1608728550698">
+    <state width="1877" height="484" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004826" />
+    <state width="1877" height="484" key="GridCell.Tab.1.center" timestamp="1610522004825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550698" />
-    <state width="1877" height="392" key="GridCell.Tab.1.left" timestamp="1608728550698">
+    <state width="1877" height="484" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
+    <state width="1877" height="484" key="GridCell.Tab.1.left" timestamp="1610522004825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550698" />
-    <state width="1877" height="392" key="GridCell.Tab.1.right" timestamp="1608728550699">
+    <state width="1877" height="484" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
+    <state width="1877" height="484" key="GridCell.Tab.1.right" timestamp="1610522004826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608728550699" />
+    <state width="1877" height="484" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004826" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1608726134940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608726134940" />
-    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog" timestamp="1607164665989">
+    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog" timestamp="1610437681069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607164665989" />
-    <state x="165" y="110" key="SettingsEditor" timestamp="1608326496816">
+    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610437681069" />
+    <state x="869" y="224" key="SettingsEditor" timestamp="1610506448306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="165" y="110" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608326496816" />
+    <state x="869" y="224" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610506448306" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607248389758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -336,26 +345,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1608728847842" />
+    <state x="1116" y="253" width="786" height="600" key="find.popup" timestamp="1610525435729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1116" y="253" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610525435729" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608709576214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608709576213" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LoginController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LibraryController.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

@@ -5,7 +5,6 @@ import com.evan.wj.result.Result;
 import com.evan.wj.result.ResultFactory;
 import com.evan.wj.service.UserService;
 import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -17,8 +16,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
 
-import javax.servlet.http.HttpSession;
-import java.util.Objects;
 
 /***
  * @description
@@ -33,30 +30,18 @@ public class LoginController {
     @Autowired
     UserService userService;
 
-    /*@CrossOrigin
-    @PostMapping(value = "api/login")
-    @ResponseBody
-    public Result login(@RequestBody User requestUser, HttpSession httpSession) {
-        String username = requestUser.getUsername();
-        // 对html标签进行转义，防止XXS进攻
-        username = HtmlUtils.htmlEscape(username);
-
-        User user = userService.get(username, requestUser.getPassword());
-        if (user == null) {
-            System.out.println("test,账号密码错误");
-            return new Result(400);
-        }else {
-            httpSession.setAttribute("user", user);
-            return new Result(200);
-        }
-    }*/
-
+    /**
+     * 登录
+     * @param requestUser
+     * @return
+     */
     @PostMapping(value = "/api/login")
     @ResponseBody
     public Result login(@RequestBody User requestUser) {
         String username = requestUser.getUsername();
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, requestUser.getPassword());
+        usernamePasswordToken.setRememberMe(true);
         try {
             subject.login(usernamePasswordToken);
             return ResultFactory.buildSuccessResult(requestUser);
@@ -68,6 +53,11 @@ public class LoginController {
 
     }
 
+    /**
+     * 注册
+     * @param user
+     * @return
+     */
     @PostMapping("api/register")
     @ResponseBody
     public Result register(@RequestBody User user) {
@@ -94,6 +84,25 @@ public class LoginController {
         userService.add(user);
 
         return ResultFactory.buildSuccessResult(user);
+    }
+
+    @ResponseBody
+    @GetMapping("/api/logout")
+    public Result logout() {
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+        String message = "成功退出";
+        return ResultFactory.buildSuccessResult(message);
+    }
+
+    /**
+     * 访问每个页面都向后端发送一个请求，目的是经由拦截器验证服务器端的登录状态
+     * @return
+     */
+    @ResponseBody
+    @GetMapping("/api/authentication")
+    public String authentication() {
+        return "身份认证成功";
     }
 }
 
