@@ -4,6 +4,7 @@ import com.evan.wj.pojo.User;
 import com.evan.wj.result.Result;
 import com.evan.wj.result.ResultFactory;
 import com.evan.wj.service.UserService;
+import org.apache.http.HttpResponse;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
@@ -12,6 +13,7 @@ import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
@@ -46,9 +48,9 @@ public class LoginController {
             subject.login(usernamePasswordToken);
             return ResultFactory.buildSuccessResult(requestUser);
         } catch (IncorrectCredentialsException e) {
-            return ResultFactory.buildFailResult("账号不存在");
+            return ResultFactory.buildFailResult("密码错误");
         } catch (UnknownAccountException e) {
-            return ResultFactory.buildFailResult("账号密码不存在");
+            return ResultFactory.buildFailResult("账号不存在1");
         }
 
     }
