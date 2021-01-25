@@ -44,6 +44,10 @@
                             _this.$store.commit('login', _this.loginForm);
                             var path = this.$route.query.redirect;
                             this.$router.replace({path: path === '/' || path === undefined ? '/index' :path});
+                        }else {
+                            this.$alert(successResponse.data.message, '提示', {
+                                confirmButtonText: '确定'
+                            })
                         }
                     })
                     /*.catch(failResponse => {
