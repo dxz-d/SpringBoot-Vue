@@ -35,6 +35,7 @@ public class MyWebConfigurer implements WebMvcConfigurer {
         // 所有请求都允许跨域
         registry.addMapping("/**")
                 .allowCredentials(true)
+                // 跨域问题
                 .allowedOrigins("http://localhost:8080")
                 .allowedMethods("POST", "GET", "PUT", "OPTIONS", "DELETE")
                 .allowedHeaders("*");
