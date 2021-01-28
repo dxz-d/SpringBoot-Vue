@@ -34,6 +34,11 @@ public class UserService {
         userDao.save(user);
     }
 
+    /**
+     * 从数据库中获取当前用户
+     * @param userName
+     * @return
+     */
     public User getByUserName(String userName) {
         return userDao.findByUsername(userName);
     }

@@ -1,6 +1,7 @@
 package com.evan.wj.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -12,13 +13,10 @@ import java.io.Serializable;
  * @param
  * @return
  */
+@Data
 @Entity
-@Table(name = "user")
-@JsonIgnoreProperties({"handler","hibernateLazyInitializer"})
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Integer id;
 
     @Column(name = "username")
@@ -29,36 +27,4 @@ public class User {
 
     @Column(name = "salt")
     private String salt;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public String getSalt() {
-        return salt;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public void setSalt(String salt) {
-        this.salt = salt;
-    }
 }
