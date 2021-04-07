@@ -17,6 +17,15 @@ Vue.config.productionTip = false
 Vue.use(ElementUI)
 
 router.beforeEach((to, from, next) => {
+  if (store.state.user.username && to.path.startsWith("/admin")) {
+    initAdminMenu(router, store);
+  }
+  // 已登录状态下访问login页面直接跳转到后台首页
+  if (store.state.username && to.path.startsWith("/login")) {
+    next({
+      path: 'admin/dashboard'
+    })
+  }
   if (to.meta.requireAuth) {
     if (store.state.user) {
       axios.get('/authentication').then(resp => {
@@ -32,6 +41,55 @@ router.beforeEach((to, from, next) => {
     next()
   }
 })
+
+// http response 拦截器
+axios.interceptors.response.use(
+    response => {
+      return response
+    },
+    error => {
+      if (error) {
+        store.commit('logout')
+        router.replace('/login')
+      }
+      // 返回接口的错误信息
+      return Promise.reject(error)
+    }
+)
+
+const initAdminMenu = (router, store) => {
+  axios.get('/menu').then(resp => {
+    if (resp && resp.status === 200) {
+      var fmtRoutes = formatRoutes(resp.data)
+      router.addRoutes(fmtRoutes)
+      store.commit('initAdminMenu', fmtRoutes)
+    }
+  })
+}
+initAdminMenu
+// 这里传入的参数routes代表我们从后端获取的菜单列表
+const formatRoutes = (routes) => {
+  let fmtRoutes = []
+  routes.forEach(route => {
+    if (route.children) {
+      route.children = formatRoutes(route.children)
+    }
+
+    let fmtRoute = {
+      path : route.path,
+      component : resolve => {
+        require(['./components/admin/' + route.component + '.vue'], resolve);
+      },
+      name : route.name,
+      nameZh : route.nameZh,
+      iconCls : route.iconCls,
+      children : route.children
+    }
+    fmtRoutes.push(fmtRoute)
+  })
+  return fmtRoutes
+}
+
 
 new Vue({
   el: '#app',

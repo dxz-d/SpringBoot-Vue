@@ -10,6 +10,10 @@ export default new VueX.Store({
         }
     },
     mutations: {
+        initAdminMenu (state, menus) {
+            // state.AdminMenu = menus
+            state.adminMenus = menus
+        },
         login(state, user) {
             state.user = user;
             window.localStorage.setItem('user', JSON.stringify(user));

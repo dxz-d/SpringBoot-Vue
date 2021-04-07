@@ -18,6 +18,8 @@ export default {
 }
 </script>
 
+<!-- 前端要做的事情就是处理后端传来的数据，并传递给路由和导航菜单，以实现动态渲染 -->
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
