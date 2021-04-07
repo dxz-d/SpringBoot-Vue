@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469a54b6-882d-40eb-a239-c6586ae150b7" name="Default Changelist" comment="1">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wj-vue" beforeDir="false" afterPath="$PROJECT_DIR$/../wj-vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/config/ShiroConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evan/wj/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evan/wj/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/evan/wj/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evan/wj/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/evan/wj/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evan/wj/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/evan/wj/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evan/wj/result/Result.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,11 @@
         <option name="userSettingsFile" value="E:\maven\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1lCt9DHYSw9fKL9iVvbtR9RQZpu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,6 +75,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -153,6 +155,12 @@
       <workItem from="1608724791409" duration="1935000" />
       <workItem from="1610499929787" duration="634000" />
       <workItem from="1610506289516" duration="8420000" />
+      <workItem from="1616116557252" duration="3219000" />
+      <workItem from="1616202558465" duration="1807000" />
+      <workItem from="1616218654057" duration="2724000" />
+      <workItem from="1616388219440" duration="597000" />
+      <workItem from="1616497460439" duration="599000" />
+      <workItem from="1617779113024" duration="3233000" />
     </task>
     <task id="LOCAL-00001" summary="前后端分离（与前端试着联调）">
       <created>1607123655138</created>
@@ -233,126 +241,73 @@
     <option name="LAST_COMMIT_MESSAGE" value="实现搜索功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="363" width="816" height="677" key="#Assign_Data_Sources" timestamp="1607241823984">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="96" y="363" width="816" height="677" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1607241823984" />
-    <state x="552" y="178" key="#Assign_Naming_Strategies..." timestamp="1607161700138">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Assign_Naming_Strategies.../0.0.1920.1040@0.0.1920.1040" timestamp="1607161700138" />
-    <state x="289" y="172" width="1160" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608326430485">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="289" y="172" width="1160" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608326430485" />
-    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607241622800">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607241622800" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1610506666063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610506666063" />
-    <state x="660" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607185942050">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="660" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607185942050" />
-    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1607185946044">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1607185946044" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1608728964135">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608728964135" />
     <state width="455" height="466" key="DebuggerActiveHint" timestamp="1610520362555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1610520362555" />
-    <state x="285" y="232" key="FileChooserDialogImpl" timestamp="1607237907262">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1616057130071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="232" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607237907262" />
-    <state width="1877" height="484" key="GridCell.Tab.0.bottom" timestamp="1610522004825">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616057130071" />
+    <state width="1877" height="564" key="GridCell.Tab.0.bottom" timestamp="1617785854628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
-    <state width="1877" height="484" key="GridCell.Tab.0.center" timestamp="1610522004825">
+    <state width="1877" height="564" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854628" />
+    <state width="1877" height="564" key="GridCell.Tab.0.center" timestamp="1617785854628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
-    <state width="1877" height="484" key="GridCell.Tab.0.left" timestamp="1610522004825">
+    <state width="1877" height="564" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854628" />
+    <state width="1877" height="564" key="GridCell.Tab.0.left" timestamp="1617785854628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
-    <state width="1877" height="484" key="GridCell.Tab.0.right" timestamp="1610522004825">
+    <state width="1877" height="564" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854628" />
+    <state width="1877" height="564" key="GridCell.Tab.0.right" timestamp="1617785854628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
-    <state width="1877" height="484" key="GridCell.Tab.1.bottom" timestamp="1610522004826">
+    <state width="1877" height="564" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854628" />
+    <state width="1877" height="564" key="GridCell.Tab.1.bottom" timestamp="1617785854629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004826" />
-    <state width="1877" height="484" key="GridCell.Tab.1.center" timestamp="1610522004825">
+    <state width="1877" height="564" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854629" />
+    <state width="1877" height="564" key="GridCell.Tab.1.center" timestamp="1617785854629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
-    <state width="1877" height="484" key="GridCell.Tab.1.left" timestamp="1610522004825">
+    <state width="1877" height="564" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854629" />
+    <state width="1877" height="564" key="GridCell.Tab.1.left" timestamp="1617785854629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004825" />
-    <state width="1877" height="484" key="GridCell.Tab.1.right" timestamp="1610522004826">
+    <state width="1877" height="564" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854629" />
+    <state width="1877" height="564" key="GridCell.Tab.1.right" timestamp="1617785854629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="484" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610522004826" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1608726134940">
+    <state width="1877" height="564" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617785854629" />
+    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog" timestamp="1617779447304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608726134940" />
-    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog" timestamp="1610437681069">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610437681069" />
+    <state x="799" y="230" width="677" height="579" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617779447304" />
     <state x="869" y="224" key="SettingsEditor" timestamp="1610506448306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="869" y="224" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610506448306" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607248389758">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616117028119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607248389758" />
-    <state x="723" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1607124015372">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616117028119" />
+    <state x="544" y="221" width="786" height="600" key="find.popup" timestamp="1617781135689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607124015372" />
-    <state x="676" y="159" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1607160523115">
+    <state x="544" y="221" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617781135689" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1616058452741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="676" y="159" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607160523115" />
-    <state x="795" y="250" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1607160379242">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="795" y="250" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607160379242" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608726008212">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608726008212" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608712041925">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608712041925" />
-    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608728847842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1608728847842" />
-    <state x="1116" y="253" width="786" height="600" key="find.popup" timestamp="1610525435729">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1116" y="253" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610525435729" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608709576214">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608709576213" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616058452741" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wj$WjApplication.ic" NAME="WjApplication Coverage Results" MODIFIED="1616050612548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
