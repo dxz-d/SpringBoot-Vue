@@ -13,7 +13,7 @@ import java.util.List;
 public interface AdminUserRoleDao extends JpaRepository<AdminUserRole, Integer> {
 
     /**
-     * 获取但钱用户对应的所有角色的id列表
+     * 获取当前用户对应的所有角色id列表
      * @param uid
      * @return
      */
